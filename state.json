@@ -112,9 +112,11 @@
     "0d00db4c7b5446bbae7f1bca85088167": {
       "slug": "recesion-economistas-anticipan-una-caida-de-la-actividad-en-octubre-y-recortan-las-pr-0d00db4c",
       "container": "18064717625569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-26T23:38:44.266276+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18376780915300185",
+      "published_at": "2026-11-26T23:38:49.595742+00:00"
     }
   }
 }
