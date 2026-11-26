@@ -49,9 +49,11 @@
     "e4a3182053254608bcb5cc48bf8eebbc": {
       "slug": "el-dolar-blue-bajo-por-primera-vez-en-10-ruedas-pero-se-mantuvo-en-los-1-700-e4a31820",
       "container": "18064690973569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-26T20:34:36.205130+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18115425845190559",
+      "published_at": "2026-11-26T20:34:41.682587+00:00"
     }
   }
 }
