@@ -121,9 +121,11 @@
     "f3b9ed9471814c108ac1b2e52e122695": {
       "slug": "recesion-y-dolar-por-que-los-economistas-advierten-sobre-los-riesgos-de-cambiar-el-ru-f3b9ed94",
       "container": "18064717739569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-26T23:38:59.518197+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18131484442864678",
+      "published_at": "2026-11-26T23:39:03.977363+00:00"
     }
   }
 }
