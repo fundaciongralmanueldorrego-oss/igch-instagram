@@ -1,0 +1,12 @@
+{
+  "portal": "https://info-gran-chaco.pages.dev",
+  "instagram": "infogranchaco",
+  "name": "Info Gran Chaco",
+  "tagline": "Volvemos a hablar",
+  "notice": "Imágenes con datos sensibles. Visitá el portal para ver la cobertura completa.",
+  "max_per_run": 3,
+  "max_per_24h": 60,
+  "max_age_hours": 72,
+  "sensitive_slugs": [],
+  "excluded_slugs": []
+}

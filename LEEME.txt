@@ -1,0 +1,84 @@
+INFO GRAN CHACO — ADAPTADOR INDEPENDIENTE PARA INSTAGRAM
+
+1. Crear un repositorio NUEVO y PÚBLICO, por ejemplo igch-instagram, inicializado en main.
+   No cargar este ZIP en info-gran-chaco ni en Nuevo Chaco. No hay que tocar Apps Script.
+   Descomprimir y subir los archivos y carpetas (incluidas assets, tests, media y .github).
+   GitHub web puede omitir carpetas ocultas: si no aparece el workflow, usar Add file >
+   Create new file, escribir .github/workflows/instagram.yml y pegar el contenido del YAML
+   incluido. Subir .gitignore de la misma manera si falta. No subir __pycache__, fonts o preview.
+   El repositorio es público porque Meta debe descargar el JPEG generado desde una URL HTTPS
+   sin autenticación. Solamente se guardan placas destinadas a publicación pública y un estado
+   con identificadores, nunca credenciales. Usar imágenes cuya difusión esté autorizada.
+
+2. En Actions, elegir Instagram — Info Gran Chaco > Run workflow > mode=demo.
+   No necesita credenciales, no publica nada. En Artifacts se descargan las placas ficticias.
+   mode=preview toma una noticia real de /data/list.json (opcionalmente indicar slug) y genera
+   ambas placas si su imagen es utilizable; si no lo es, ambas muestran el diseño institucional.
+   La previsualización no modifica estado ni publica nada.
+
+3. Meta: https://developers.facebook.com/apps/
+   Usar una aplicación con Instagram API con Facebook Login (o Facebook Login for Business,
+   según la interfaz), vinculada al negocio que administra la página y su cuenta profesional.
+   Autorizar instagram_basic, instagram_content_publish y pages_read_engagement; pages_show_list
+   para localizar la página. Según la asignación vía Business Manager pueden requerirse permisos
+   adicionales ads_read y ads_management y completar Page Publishing Authorization. Revisar los
+   requisitos de acceso/revisión de Meta para la aplicación y la cuenta.
+   Obtener un token de página autorizado para publicación, de duración adecuada, y comprobar
+   con Graph API Explorer la cuenta conectada: /me/accounts (token de usuario), después
+   /ID_DE_PAGINA?fields=instagram_business_account{id,username}.
+   El identificador debe corresponder a @infogranchaco. No confundir ID de página con ID de IG.
+   No pegar tokens en el chat, ni en archivos, ni en commits.
+   Documentación: https://developers.facebook.com/documentation/instagram-platform/content-publishing
+
+4. En el repositorio nuevo: Settings > Secrets and variables > Actions > Secrets > New repository secret.
+   META_PAGE_TOKEN = token de página autorizado para Instagram.
+   META_IG_ID = identificador de la cuenta profesional confirmado con Meta.
+   En Variables, crear IG_ENABLED con valor false inicialmente.
+   Opcional: META_GRAPH_VERSION (por defecto v25.0, versión vigente).
+   Los secretos solo se pasan al proceso de publicación por variables de entorno.
+   Settings > Actions > General: confirmar que la política del repositorio permita ejecutar
+   Actions y escribir en el repositorio (el workflow solicita contents: write).
+
+5. Tras comprobar las placas y permisos, cambiar IG_ENABLED a true y ejecutar mode=publish.
+   La PRIMERA ejecución registra la fecha de activación y no publica noticias anteriores.
+   En las ejecuciones siguientes, busca cada 30 minutos las noticias posteriores a esa fecha.
+   GitHub puede retrasar ejecuciones programadas. Por defecto procesa hasta 3 por ejecución
+   y 60 intentos/publicaciones en una ventana de 24 horas, con antigüedad máxima de 72 horas.
+   Si se desea incluir noticias previas, editar start_at de state.json a una fecha ISO adecuada
+   ANTES de activar (por ejemplo 2026-11-26T12:00:00-03:00). No borrar el registro de posts.
+   GitHub Actions realiza las llamadas de Meta; no interviene en Facebook.
+   Para detenerlo, cambiar IG_ENABLED a false. Los datos del diario no se modifican.
+
+6. config.json permite ajustar límites, cambiar textos y excluir slugs. Si una imagen se
+   identifica editorialmente como sensible, agregar su slug a sensitive_slugs ANTES de publicar.
+   No hay análisis automático de sensibilidad: la compatibilidad técnica no demuestra que una
+   imagen sea apta para Instagram. La placa de reemplazo conserva el aviso literal solicitado
+   incluso cuando la incompatibilidad es meramente técnica; puede ajustarse en config.json.
+   Fotografías descargables se adaptan sin deformación ni recorte mediante bandas discretas.
+   Títulos/bajadas excepcionalmente largos se abrevían visualmente con puntos suspensivos;
+   el texto original limpio se incluye en el caption dentro del límite de caracteres de Meta.
+   Los enlaces del caption normalmente no son clicables: se remite al enlace del perfil.
+
+7. state.json registra publicaciones por identificador de noticia. No borrar ni reiniciar sin
+   verificar las publicaciones existentes. Los contenedores pendientes se revisan en ejecuciones
+   sucesivas. Si se pierde la respuesta de publicación, se conserva el estado publishing;
+   el programa no reintenta automáticamente para evitar duplicados. Revisar Instagram y el
+   registro antes de corregir ese estado. Si el contenedor está definitivamente ERROR o EXPIRED,
+   se marca failed; revisar la causa y eliminar solamente esa entrada si se decide reintentar.
+   No se reintenta a ciegas una llamada de publicación. Una imagen rechazada por Meta después
+   de la conversión puede requerir revisión manual; el fallback automático se usa en la fase
+   de adaptación local. No se publica contenido ajeno al índice público del portal.
+
+8. Costos: el módulo usa la API oficial y GitHub Actions en repositorio público, con hosting
+   de placas mediante raw.githubusercontent.com. No requiere contratar R2 ni otro servidor.
+   La disponibilidad de esa URL y la autorización de Meta deben verificarse en producción.
+   Las políticas y límites de las plataformas pueden cambiar. La cuenta profesional debe
+   estar autorizada y el token vigente; si caduca o se revoca, renovar el secreto.
+   El repositorio crecerá con las placas; revisar periódicamente almacenamiento e historial.
+
+PRUEBAS LOCALES: python -m pip install -r requirements.txt
+                 python -m unittest discover -s tests -v
+                 python instagram.py demo
+Se han comprobado las dos placas, el JPEG, cuotas internas, deduplicación y estados simulados.
+La tipografía de producción es Montserrat (se obtiene de Google Fonts en cada workflow),
+con Lato de respaldo. Las muestras locales usan Lato. Sin prueba real de API ni despliegue.
