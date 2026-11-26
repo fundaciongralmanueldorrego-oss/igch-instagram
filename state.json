@@ -130,9 +130,11 @@
     "42c6239f50ca425a93e543f614334e6a": {
       "slug": "deuda-el-gobierno-oficializo-un-nuevo-canje-con-el-bcra-y-encara-una-licitacion-para--42c6239f",
       "container": "18064717838569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-26T23:39:14.371109+00:00",
-      "template": "institutional"
+      "template": "institutional",
+      "media_id": "18655528183037681",
+      "published_at": "2026-11-26T23:39:20.022245+00:00"
     }
   }
 }
