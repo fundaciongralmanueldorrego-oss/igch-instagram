@@ -67,9 +67,11 @@
     "6303107a21fa417baa8d3cb45aa613ab": {
       "slug": "dolar-hoy-y-dolar-blue-hoy-minuto-a-minuto-a-cuanto-opera-este-jueves-26-de-noviembre-6303107a",
       "container": "18064698977569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-26T21:34:52.081355+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18155898484547252",
+      "published_at": "2026-11-26T21:34:57.216336+00:00"
     }
   }
 }
