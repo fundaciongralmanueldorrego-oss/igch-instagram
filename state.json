@@ -85,9 +85,11 @@
     "575ca9c3fb154f2ca14ab291ab6ed54e": {
       "slug": "preocupacion-en-el-mediocampo-de-boca-que-se-sabe-de-las-lesiones-de-milton-delgado-y-575ca9c3",
       "container": "18064709846569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-26T22:38:24.904010+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18121812439790293",
+      "published_at": "2026-11-26T22:38:30.433173+00:00"
     }
   }
 }
