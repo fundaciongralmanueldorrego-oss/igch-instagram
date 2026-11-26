@@ -94,9 +94,11 @@
     "f28e7b7b6d884671842c34ad30934738": {
       "slug": "sergio-massa-desembarco-en-cordoba-y-participo-de-un-foro-sobre-inteligencia-artifici-f28e7b7b",
       "container": "18064709918569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-26T22:38:40.067673+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18424638274158229",
+      "published_at": "2026-11-26T22:38:45.335504+00:00"
     }
   }
 }
