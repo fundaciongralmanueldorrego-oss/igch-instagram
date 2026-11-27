@@ -292,9 +292,11 @@
     "eb944162f76e4aeaa2f7d20ddd40948f": {
       "slug": "lo-que-se-dice-en-las-mesas-empresas-gambetean-riesgo-electoral-recalculan-emisiones--eb944162",
       "container": "18064825385569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T11:04:06.717261+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18126394169038810",
+      "published_at": "2026-11-27T11:04:11.910718+00:00"
     }
   }
 }
