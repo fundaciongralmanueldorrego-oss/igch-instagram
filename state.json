@@ -418,9 +418,11 @@
     "812f8562a2a74f938dec4ca216173642": {
       "slug": "diputados-convirtio-en-ley-la-reforma-del-banco-central-812f8562",
       "container": "18064959572569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T23:34:41.610566+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18063511943553543",
+      "published_at": "2026-11-27T23:34:46.484785+00:00"
     }
   }
 }
