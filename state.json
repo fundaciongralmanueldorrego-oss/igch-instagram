@@ -427,9 +427,11 @@
     "27436aad04fd45fa9c98b897a02db272": {
       "slug": "el-aprendizaje-en-la-vida-adulta-27436aad",
       "container": "18064959614569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T23:34:56.197302+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18121865780084109",
+      "published_at": "2026-11-27T23:35:01.341868+00:00"
     }
   }
 }
