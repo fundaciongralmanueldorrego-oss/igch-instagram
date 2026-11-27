@@ -391,9 +391,11 @@
     "9e90d2a0927a4cc59e05f422c0268ff6": {
       "slug": "el-ajuste-avanza-con-el-presupuesto-2027-9e90d2a0",
       "container": "18064950584569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T22:13:47.167251+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18122463016766871",
+      "published_at": "2026-11-27T22:13:51.891032+00:00"
     }
   }
 }
