@@ -301,9 +301,11 @@
     "010e87df101541acb2615dc71bc3eb71": {
       "slug": "cuando-cobro-anses-jubilados-auh-desempleo-y-el-resto-de-las-prestaciones-del-viernes-010e87df",
       "container": "18064838858569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T12:07:17.011223+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18657677944031790",
+      "published_at": "2026-11-27T12:07:22.513535+00:00"
     }
   }
 }
