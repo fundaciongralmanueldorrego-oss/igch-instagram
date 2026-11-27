@@ -238,9 +238,11 @@
     "b1e96275fa1347bbbb1f5a7a6050ea2d": {
       "slug": "el-presidente-se-reunio-con-su-par-de-asuncion-y-el-senado-le-dio-media-sancion-a-la--b1e96275",
       "container": "18064799951569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T08:37:06.277133+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "17908770447355257",
+      "published_at": "2026-11-27T08:37:12.272414+00:00"
     }
   }
 }
