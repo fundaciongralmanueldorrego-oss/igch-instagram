@@ -166,9 +166,11 @@
     "ecb42315d30d41afbbb34a5c9ec8ad2e": {
       "slug": "irs-quienes-deben-renovar-el-numero-ptin-antes-de-que-venza-el-registro-de-2026-ecb42315",
       "container": "18064771820569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T05:41:21.715857+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "17926371564444372",
+      "published_at": "2026-11-27T05:41:26.814625+00:00"
     }
   }
 }
