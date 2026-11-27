@@ -373,9 +373,11 @@
     "0ce79680ffb646c1a307389cb910c72d": {
       "slug": "el-oro-del-central-esta-en-londres-0ce79680",
       "container": "18064942145569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T21:12:32.930118+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18018125933992627",
+      "published_at": "2026-11-27T21:12:37.911283+00:00"
     }
   }
 }
