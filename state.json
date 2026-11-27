@@ -274,9 +274,11 @@
     "815d88ca28854d87b65dc411c9b63db3": {
       "slug": "inflacion-proyectan-que-retomara-el-sendero-de-la-desaceleracion-en-noviembre-y-perfo-815d88ca",
       "container": "18064825268569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T11:03:37.620575+00:00",
-      "template": "institutional"
+      "template": "institutional",
+      "media_id": "18121619804048157",
+      "published_at": "2026-11-27T11:03:41.980680+00:00"
     }
   }
 }
