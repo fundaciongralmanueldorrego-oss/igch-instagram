@@ -256,9 +256,11 @@
     "da54e0e202e04c6aa22dfe5451b93a28": {
       "slug": "quien-es-luiz-carlos-trabuco-el-banquero-elegido-por-lula-da-silva-como-ministro-de-e-da54e0e2",
       "container": "18064810472569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T09:47:49.319680+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18139344580735781",
+      "published_at": "2026-11-27T09:47:57.748809+00:00"
     }
   }
 }
