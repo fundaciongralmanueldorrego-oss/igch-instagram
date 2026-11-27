@@ -137,7 +137,7 @@ def git(*args): return subprocess.check_output(['git',*args],cwd=ROOT,text=True)
 def persist(state,files=()):
     STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     git('add','state.json',*(str(p.relative_to(ROOT)) for p in files))
-        if git('diff','--cached','--name-only'):
+    if git('diff','--cached','--name-only'):
         git('commit','-m','IGCH: estado editorial de Instagram [skip ci]'); git('push','origin','HEAD:'+os.environ['IG_BRANCH'])
     return git('rev-parse','HEAD')
 
