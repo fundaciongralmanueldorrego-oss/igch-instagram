@@ -220,9 +220,11 @@
     "8ee85e937b264ce480fc882019db4fd6": {
       "slug": "desalojos-expres-ya-es-ley-la-norma-que-permite-recuperar-en-tiempo-record-una-propie-8ee85e93",
       "container": "18064799750569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T08:36:30.700700+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18067759436525178",
+      "published_at": "2026-11-27T08:36:37.348334+00:00"
     }
   }
 }
