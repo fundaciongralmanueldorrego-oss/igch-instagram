@@ -193,8 +193,8 @@
     "0cb5f5cb18ff464bab28bd59598a7cc1": {
       "slug": "guardianes-del-papel-el-laboratorio-porteno-que-rescata-libros-del-siglo-xv-0cb5f5cb",
       "container": "18064781504569070",
-      "status": "pending",
-      "attempt_at": "2026-11-27T06:46:26.580765+00:00",
+      "status": "publishing",
+      "attempt_at": "2026-11-27T06:46:28.512849+00:00",
       "template": "photo"
     }
   }
