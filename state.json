@@ -409,9 +409,11 @@
     "33ab6d7853d54f46892d4a130648eab3": {
       "slug": "avanzan-los-preparativos-para-la-edicion-solidaria-del-festival-de-la-cerveza-artesan-33ab6d78",
       "container": "18064950710569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T22:14:13.518392+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18119534975016062",
+      "published_at": "2026-11-27T22:14:17.490691+00:00"
     }
   }
 }
