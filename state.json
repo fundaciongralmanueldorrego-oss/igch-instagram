@@ -346,9 +346,11 @@
     "cd07effa3c2f4d64b42782084866d397": {
       "slug": "tini-stoessel-revelo-los-apodos-que-usan-con-rodrigo-de-paul-en-la-intimidad-de-su-pa-cd07effa",
       "container": "18064933400569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T20:12:04.788994+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "17879131221585157",
+      "published_at": "2026-11-27T20:12:09.751383+00:00"
     }
   }
 }
