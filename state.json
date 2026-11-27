@@ -436,9 +436,11 @@
     "96759b27fddf47deb2b2edbaa8daeb6f": {
       "slug": "el-chaco-licitara-la-compra-de-medicamentos-por-mas-de-3-700-millones-96759b27",
       "container": "18064959659569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T23:35:10.506040+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "17913848658571322",
+      "published_at": "2026-11-27T23:35:15.145280+00:00"
     }
   }
 }
