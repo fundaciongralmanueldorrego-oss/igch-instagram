@@ -202,9 +202,11 @@
     "d5946be811f3475b81a42e4913ebe5cf": {
       "slug": "sesion-en-el-congreso-por-reforma-electoral-y-presupuesto-en-vivo-suspension-de-las-p-d5946be8",
       "container": "18064781561569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T06:46:44.620557+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18066948212527015",
+      "published_at": "2026-11-27T06:46:50.427776+00:00"
     }
   }
 }
