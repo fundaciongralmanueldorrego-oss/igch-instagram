@@ -184,9 +184,11 @@
     "98b3268a24ba4fb587a8880ae4e1762a": {
       "slug": "autoridades-de-nuevo-mexico-buscan-a-presidiaria-embarazada-que-escapo-durante-trasla-98b3268a",
       "container": "18064771988569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T05:41:52.951821+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18051024371819469",
+      "published_at": "2026-11-27T05:41:58.293090+00:00"
     }
   }
 }
