@@ -175,9 +175,11 @@
     "287b659cef84409ab01338168a8630cc": {
       "slug": "trump-dice-tener-informacion-que-descarta-que-ceo-de-nvidia-sea-una-amenaza-para-la-s-287b659c",
       "container": "18064771880569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T05:41:36.807837+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "17867175795695544",
+      "published_at": "2026-11-27T05:41:43.572051+00:00"
     }
   }
 }
