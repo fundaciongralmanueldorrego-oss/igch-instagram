@@ -310,9 +310,11 @@
     "c48bd1151d564ac9861f864e9fdb40e7": {
       "slug": "en-una-votacion-que-se-extiende-el-gobierno-confia-aprobar-el-presupuesto-2027-en-dip-c48bd115",
       "container": "18064838969569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T12:07:32.927207+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "17945937714380795",
+      "published_at": "2026-11-27T12:07:39.585580+00:00"
     }
   }
 }
