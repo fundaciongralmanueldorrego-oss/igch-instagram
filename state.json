@@ -265,9 +265,11 @@
     "f72d3fc7f2ff463f8390fc6957a2dcf6": {
       "slug": "dolar-orlando-ferreres-anticipo-hasta-donde-puede-subir-el-tipo-de-cambio-y-alerto-po-f72d3fc7",
       "container": "18064810601569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T09:48:08.485857+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18419598451081324",
+      "published_at": "2026-11-27T09:48:14.336340+00:00"
     }
   }
 }
