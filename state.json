@@ -157,9 +157,11 @@
     "6e3fa7d362194821aa5fe607cbd9a5ea": {
       "slug": "construyen-una-capilla-argentina-en-tierra-santa-en-homenaje-al-papa-francisco-6e3fa7d3",
       "container": "18064759769569070",
-      "status": "publishing",
+      "status": "published",
       "attempt_at": "2026-11-27T04:23:38.115278+00:00",
-      "template": "photo"
+      "template": "photo",
+      "media_id": "18155640553555204",
+      "published_at": "2026-11-27T04:23:42.991636+00:00"
     }
   }
 }
