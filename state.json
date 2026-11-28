@@ -452,8 +452,8 @@
     "169baf1a17a5402c964d2db2e84afdd6": {
       "slug": "cuenta-regresiva-para-la-entrega-de-los-martin-fierro-de-la-salud-169baf1a",
       "container": "18064978580569070",
-      "status": "pending",
-      "attempt_at": "2026-11-28T02:00:03.131035+00:00",
+      "status": "publishing",
+      "attempt_at": "2026-11-28T02:00:04.562329+00:00",
       "template": "photo"
     }
   }
